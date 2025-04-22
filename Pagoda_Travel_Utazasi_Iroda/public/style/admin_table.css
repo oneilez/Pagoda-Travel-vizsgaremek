@@ -1,0 +1,44 @@
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.admin-table th,
+.admin-table td {
+    border: 1px solid #000; /* fekete szegély */
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.admin-table th {
+    background-color: #333; /* sötétszürke fejlécek */
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.admin-table tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.admin-table tr:hover {
+    background-color: #e0e0e0;
+}
+
+.admin-table button {
+    background-color: #c40000;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.admin-table button:hover {
+    background-color: #a00000;
+}
