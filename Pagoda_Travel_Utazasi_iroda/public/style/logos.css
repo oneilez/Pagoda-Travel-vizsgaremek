@@ -1,0 +1,31 @@
+/* Logó képméret beállítás */
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.navbar-logo-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.logo-img {
+    height: 50px !important;
+    width: auto !important;
+    max-width: 100% !important;
+    object-fit: contain !important;
+    display: block;
+}

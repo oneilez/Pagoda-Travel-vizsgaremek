@@ -1,0 +1,72 @@
+.trip-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  max-width: 700px;
+  width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.close-modal {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #c00;
+  cursor: pointer;
+}
+
+.modal-trip-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.trip-image img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.trip-info {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #222;
+}
+
+.trip-details-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.trip-details-list li {
+  margin-bottom: 8px;
+}
+
+.trip-details-list strong {
+  display: inline-block;
+  min-width: 100px;
+}
+.modal-content p {
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+

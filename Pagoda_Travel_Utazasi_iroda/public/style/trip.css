@@ -1,0 +1,85 @@
+.trip-image {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.trip-img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.trip-description {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+
+.trips-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Trip card box */
+.trip-container {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s;
+}
+
+.trip-container:hover {
+    transform: translateY(-5px);
+}
+
+.trip-container img {
+    width: 100%;
+    border-radius: 6px;
+    max-height: 180px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.trip-container h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.trip-container p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.trip-container form {
+    margin-top: auto;
+}
+
+/* Mobil nézet alapok */
+@media (max-width: 768px) {
+    .trip-container {
+        width: 90%;
+    }
+    .trip-card img {
+    height: 140px;
+    }
+}
